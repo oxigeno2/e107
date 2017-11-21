@@ -367,7 +367,7 @@ CREATE TABLE online (
   KEY online_ip (online_ip),
   KEY online_user_id (online_user_id),
   KEY online_timestamp (online_timestamp)
-) ENGINE=InnoDB;
+) ENGINE=MyISAM;
 # --------------------------------------------------------
 
 #
