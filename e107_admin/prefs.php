@@ -1515,7 +1515,7 @@ $text .= "
 					<tr>
 						<td>".PRFLAN_161.":</td>
 						<td>
-							".$frm->radio_switch('comments_disabled', $pref['comments_disabled'], LAN_NO, LAN_YES,array('reverse'=>1))."
+							".$frm->radio_switch('comments_disabled', $pref['comments_disabled'], LAN_YES, LAN_NO,array('reverse'=>1))."
 						</td>
 					</tr>
              		<tr>
